@@ -1,0 +1,17 @@
+.root{
+	-fx-background-color:#808080 ;
+}
+.label{
+	-fx-text-fill:FFFFFF ;
+	-fx-font-weight:bold;
+}
+.button{
+	-fx-background-radius:5;
+}
+.text-field{
+	-fx-background-color:#DCDCDC ;
+}
+
+.text-area .content {
+    -fx-background-color:#DCDCDC  ;
+}

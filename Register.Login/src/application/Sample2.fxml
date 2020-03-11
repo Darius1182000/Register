@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController2">
+   <children>
+      <VBox layoutX="8.0" layoutY="13.0" prefHeight="71.0" prefWidth="332.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="68.0" prefWidth="332.0" spacing="10.0">
+               <children>
+                  <Label text="Username:" />
+                  <TextField fx:id="usernameU" prefHeight="31.0" prefWidth="192.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="8.0" layoutY="69.0" prefHeight="45.0" prefWidth="332.0" spacing="10.0">
+         <children>
+            <Label text="Password:" />
+            <PasswordField fx:id="passwordP" prefHeight="31.0" prefWidth="192.0">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </PasswordField>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <Button layoutX="120.0" layoutY="133.0" mnemonicParsing="false" onAction="#buttonB" prefHeight="41.0" prefWidth="66.0" text="Login" />
+      <Text fx:id="textC" fill="#a80000" layoutX="194.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="155.6708984375" />
+   </children>
+</AnchorPane>
